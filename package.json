@@ -1,0 +1,22 @@
+{
+  "name": "bookdbapi",
+  "version": "1.0.0",
+  "description": "To maintain a book database in which users can update by providing the details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bookdb"
+  ],
+  "author": "vivek",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-validator": "^4.3.0",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.6"
+  }
+}
